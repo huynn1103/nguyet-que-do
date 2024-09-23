@@ -1,0 +1,20 @@
+#footer {
+	background-image: url('../images/themes/Background-red.jpg');
+	color: white;
+}
+
+#footer #contact-info p:first-child {
+	padding-bottom: 0.6rem;
+	margin-bottom: 1rem;
+	border-bottom: 0.2rem solid var(--yellow);
+	display: inline-block;
+}
+
+#footer .head-info {
+	font-size: 1rem;
+}
+
+#footer .head-info span:first-child {
+	color: var(--yellow);
+	font-weight: bold;
+}

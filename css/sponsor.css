@@ -1,0 +1,24 @@
+#sponsor-wrapped {
+	background-color: black;
+	padding-bottom: 2rem;
+}
+
+#sponsor-wrapped h1 {
+	color: white;
+	font-size: 1.6rem;
+	/* font-weight: bold; */
+}
+
+#sponsor .sponsor-logo {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 1rem;
+	aspect-ratio: 1/1;
+}
+
+#sponsor .sponsor-logo img {
+	width: 80%;
+}

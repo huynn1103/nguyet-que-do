@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nguyệt Quế Đỏ</title>
+  <link rel="icon" href="images/themes/Logo-Que-II.png">
   <meta name="description" content="Nguyệt Quế Đỏ là chương trình tìm kiếm thí sinh ưu tú và xuất sắc nhất đại diện cho trường THPT chuyên Quốc Học – Huế tham dự chương trình Đường lên đỉnh Olympia do Đài Truyền hình Việt Nam tổ chức." />
   <meta name="keywords" content="Nguyệt Quế Đỏ, Đường lên đỉnh Olympia, Olympia, Trường THPT chuyên Quốc Học Huế, Quốc Học Huế, Quốc Học, Cầu truyền hình, Nguyễn Minh Triết, Võ Quang Phú Đức, Lê Quang Duy Khoa, Hồ Đắc Thanh Chương, Hồ Ngọc Hân" />
   <meta name="robots" content="index, follow" />
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Nguyệt Quế Đỏ - Olympia Quốc Học Huế" />
   <meta property="og:description" content="Nguyệt Quế Đỏ là chương trình tìm kiếm thí sinh ưu tú và xuất sắc nhất đại diện cho trường THPT chuyên Quốc Học – Huế tham dự chương trình Đường lên đỉnh Olympia do Đài Truyền hình Việt Nam tổ chức." />
-  <!-- <meta property="og:image" content="./img/Smag-Social.jpg" /> -->
+  <meta property="og:image" content="./images/themes/Thumbnail.jpg" />
   <meta property="og:url" content="https://nguyetquedo.com" />
   <meta property="og:type" content="website" />
   <!-- Canonical URL -->
@@ -20,11 +21,635 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/global.css" />
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/intro.css" />
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/timeline.css">
+  <link rel="stylesheet" href="css/stats.css">
+  <link rel="stylesheet" href="css/sponsor.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="stylesheet" href="css/social.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-  <div>Welcome to Nguyệt Quế Đỏ's website!</div>
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light">
+    <div class="navbar-brand d-flex flex-row align-items-center">
+      <a href="#about-nqd">
+        <img
+          src="images/themes/Logo-Que.png"
+          alt="Nguyệt Quế Đỏ"
+          style="height: 4rem"
+        />
+      </a>
+      <a onmouseover="this.style.textDecoration='none'" href="#about-nqd"><span id="title">Nguyệt Quế Đỏ</span></a>
+    </div>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav d-flex align-items-center">
+        <li class="nav-item">
+          <a style="padding: 0;" class="nav-link" href="#intro">
+            <i class="fa fa-home"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about-nqd">Về chúng tôi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/co-cau-nhan-su.html">Cơ cấu nhân sự</a>
+        </li>
+        <li class="nav-item dropdown text-center">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" target="_blank">Wiki<span class="caret"></span></a>
+          <ul style="width: 12rem;" class="dropdown-menu">
+            <li class="nav-item">
+              <a class="nav-link" href="/wiki/nguyet-que-do.html">Nguyệt Quế Đỏ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/wiki/nguyet-que-do-i.html">Nguyệt Quế Đỏ III</a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sponsor-wrapped">Đối tác</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer">Liên hệ</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
+  <div id="intro" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="overlay">
+          <img src="images/intro/Chung-ket-Nguyet-Que-Do-V.jpg" alt="Chung kết Nguyệt Quế Đỏ V">
+          <div class="text">Chương trình tìm kiếm<br>thí sinh ưu tú và xuất sắc nhất</div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="overlay">
+          <img src="images/intro/Ban-to-chuc-Nguyet-Que-Do-V.jpg" alt="BTC Nguyệt Quế Đỏ V">
+          <div class="text">Đại diện cho<br>trường THPT chuyên Quốc Học - Huế</div>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <div class="overlay">
+          <img src="images/intro/Minh-Triet-nhat-quy.jpg" alt="Minh Triết nhất quý">
+          <div class="text">Tham dự chương trình<br>Đường lên đỉnh Olympia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="about-nqd" class="jumbotron">
+    <div id="about-nqd-inner" class="container">
+      <div class="row mb-5 d-flex flex-row align-items-center">
+        <div class="col-md-4 text-center">
+          <img
+              src="images/themes/Logo-Que-II.png"
+              alt="Nguyệt Quế Đỏ"
+              width="100%"
+            />
+          <div class="horizontal-line-yellow"></div>
+          <p id="since" class="content-slide-up">SINCE 2018</p>
+        </div>
+        <div class="col-md-4">
+          <img
+              src="images/about/BTC-Nguyet-Que-Do-IV.jpg"
+              alt="BTC Nguyệt Quế Đỏ IV"
+              width="100%"
+              class="about-image"
+            />
+          <div class="content-box">
+            <p style="margin-top: 1rem;" class="content-slide-up">
+              Với đội ngũ ban tổ chức là những cựu học sinh và học sinh của trường, chúng tôi là một sự kết hợp hài hòa giữa bản lĩnh và kinh nghiệm cũng như nhiệt huyết và năng động; nhằm đem lại cả những giá trị truyền thống cũng như những điểm nhấn hiện đại để tạo nên một chương trình bổ ích, lý thú cho các bạn học sinh.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="content-box">
+            <p class="content-slide-down">
+              Chúng tôi mang trong mình sứ mệnh tìm kiếm thí sinh ưu tú và xuất sắc nhất đại diện cho trường THPT chuyên Quốc Học – Huế tham dự chương trình Đường lên đỉnh Olympia do Đài Truyền hình Việt Nam tổ chức và hơn thế nữa, là làm cho cái tên Quốc Học – Huế bay cao trên đỉnh núi Olympia kỳ vĩ.
+            </p>
+          </div>
+          <img
+              src="images/about/Chung-ket-Nguyet-Que-Do-IV.jpg"
+              alt="Chung kết Nguyệt Quế Đỏ IV"
+              width="100%"
+              class="about-image"
+            />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="timeline" class="container mb-5">
+    <p class="section-title mb-5">HÀNH TRÌNH PHÁT TRIỂN</p>
+    <!-- load data from json -->
+  </div>
+
+  <div id="stats" class="container text-center">
+    <p class="section-title">NHỮNG CON SỐ ẤN TƯỢNG</p>
+    <div class="horizontal-line-red"></div>
+    <p class="content-slide-up">Sau gần 6 năm hình thành và phát triển, chúng tôi đã đạt được những dấu mốc đặc biệt</p>
+    <div class="row mb-5 d-flex flex-row align-items-center">
+      <div class="col-md-3 col-sm-6 text-center">
+        <img
+            src="images/themes/Kim-cuong-1.png"
+            alt="Nguyệt Quế Đỏ"
+            width="100%"
+          />
+        <p class="stats-number">700</p>
+        <p>Thí sinh dự thi</p>
+      </div>
+      <div style="color: var(--yellow)" class="col-md-3 col-sm-6 text-center">
+        <img
+            src="images/themes/Kim-cuong-2.png"
+            alt="Nguyệt Quế Đỏ"
+            width="100%"
+          />
+        <p class="stats-number">39</p>
+        <p>Đối tác đồng hành</p>
+      </div>
+      <div style="color: var(--orange)" class="col-md-3 col-sm-6 text-center">
+        <img
+            src="images/themes/Kim-cuong-3.png"
+            alt="Nguyệt Quế Đỏ"
+            width="100%"
+          />
+        <p class="stats-number">8</p>
+        <p>Vòng nguyệt quế</p>
+      </div>
+      <div style="color: var(--red)" class="col-md-3 col-sm-6 text-center">
+        <img
+            src="images/themes/Kim-cuong-4.png"
+            alt="Nguyệt Quế Đỏ"
+            width="100%"
+          />
+        <p class="stats-number">2</p>
+        <p>Cầu truyền hình</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="sponsor-wrapped" class="jumbotron">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-12 text-center">
+          <img
+              src="images/sponsor/Sponsor.png"
+              alt="Sponsor"
+              width="100%"
+            />
+        </div>
+      </div>
+    </div>
+    <div class="mb-5">
+      <div class="text-center content-slide-up">
+        <h1>CHÚNG TÔI RẤT VINH DỰ KHI NHẬN ĐƯỢC SỰ ĐỒNG HÀNH CỦA</h1>
+        <h1 style="color: var(--yellow); font-weight: bold;">GẦN 40 QUÝ ĐỐI TÁC</h1>
+      </div>
+    </div>
+    <div id="sponsor" class="container">
+      <div class="row mb-3 line-1-sponsor">
+        <div class="owl-carousel owl-theme">
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-1/HOA_NGHIEM_BRIDAL.png"
+              alt="Hoa Nghiêm Bridal"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-1/ANI.png"
+              alt="ANI"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-1/HOA_NGHIEM_BRIDAL.png"
+              alt="Hoa Nghiêm Bridal"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-1/ANI.png"
+              alt="ANI"
+              class="sponsor-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3 line-2-sponsor">
+        <div class="owl-carousel owl-theme">
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/ACCA.png"
+              alt="ACCA"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/DAI_HOC_HUE.png"
+              alt="Đại học Huế"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/LONG_HOANG_THANH.png"
+              alt="Long Hoàng Thành"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/NHA_CAM.png"
+              alt="Nhà Cám"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/RISE_UNIFORM.png"
+              alt="Rise Uniform"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/ROW.png"
+              alt="ROW Roaster"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/SLINE.png"
+              alt="Sline Coffee"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/T&P_GROUP.png"
+              alt="T&P Group"
+              class="sponsor-image"
+              style="width: 70%"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-2/VIETCOMBANK.png"
+              alt="Vietcombank"
+              class="sponsor-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3 line-3-sponsor">
+        <div class="owl-carousel owl-theme">
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/TAN.png"
+              alt="Tan Coffee"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/VNPT.png"
+              alt="VNPT"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/AK_PRINT.png"
+              alt="AK Print"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/HOA_BABY.png"
+              alt="Hoa Baby"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/LOTTE_CINEMA.png"
+              alt="Lotte Cinema"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/PHAM_NGUYEN.png"
+              alt="Phạm Nguyên"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/SONG_KHANH.png"
+              alt="Song Khanh"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/TAN.png"
+              alt="Tan Coffee"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/VNPT.png"
+              alt="VNPT"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-3/LOTTE_CINEMA.png"
+              alt="Lotte Cinema"
+              class="sponsor-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row mb-3 line-4-sponsor">
+        <div class="owl-carousel owl-theme">
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/THANH-CONG.png"
+              alt="Thành Công"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/TRUNG-THONG.png"
+              alt="Trung Thông"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/VIETINBANK.jpg"
+              alt="Vietinbank"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/ADAT-KAFE.png"
+              alt="Adat Kafe"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/AMA.png"
+              alt="AMA"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/HUY-CUONG.png"
+              alt="Huy Cường Soundlight"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/IELTS-Chan-Truong.png"
+              alt="IELTS Chân Trương"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/CHEESE-CAKE.png"
+              alt="Cheese Cake"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/CLOVER-HOME.png"
+              alt="Clover Home"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/DDC.png"
+              alt="DDC"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/EDUPATH.png"
+              alt="Edupath"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/EUC.png"
+              alt="EUC"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/FA.png"
+              alt="FA Design"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/GONGCHA.png"
+              alt="Gong Cha"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/HT.png"
+              alt="HT Print"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/HUE-LENS.png"
+              alt="Hue Lens Media"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/IELTS-FIGHTER.png"
+              alt="IELTS Fighter"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/KINH-DO-HOA-HUE.png"
+              alt="Kinh Đô Hoa Huế"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/PHUONG-NGUYEN.png"
+              alt="Nội thất Phương Nguyên"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/VIETSEE.png"
+              alt="Vietsee"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/AN-NAM.png"
+              alt="Ân Nam"
+              class="sponsor-image"
+            />
+          </div>
+          <div class="sponsor-logo">
+            <img
+              src="images/sponsor/line-4/BAT-DONG-SAN.png"
+              alt="Hiệp hội Bất động sản"
+              class="sponsor-image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="testimonials" class="container pt-4">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <ol class="carousel-indicators">
+              <li data-target="#testimonial-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#testimonial-carousel" data-slide-to="1"></li>
+              <li data-target="#testimonial-carousel" data-slide-to="2"></li>
+              <li data-target="#testimonial-carousel" data-slide-to="3"></li>
+              <li data-target="#testimonial-carousel" data-slide-to="4"></li>
+            </ol>
+
+            <!-- load data from json -->
+          </div>
+          <a
+            class="carousel-control left carousel-control-prev"
+            href="#testimonial-carousel"
+            data-slide="prev"
+          >
+            <i class="fa fa-angle-left"></i>
+          </a>
+          <a
+            class="carousel-control right carousel-control-next"
+            href="#testimonial-carousel"
+            data-slide="next"
+          >
+            <i class="fa fa-angle-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="social" class="container mb-5 text-center">
+    <p class="section-title">KẾT NỐI NGAY VỚI CHÚNG TÔI</p>
+    <div class="horizontal-line-red"></div>
+    <div class="social-icons content-slide-up">
+      <a href="https://www.facebook.com/NguyetQueDoOfficial" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://www.youtube.com/@nguyetqueoofficial3362" target="_blank" class="fa fa-youtube"></a>
+      <a href="https://www.tiktok.com/@nguyetquedo_qhh" target="_blank" class="fa fa-tumblr"></a>
+      <a href="https://www.linkedin.com/company/nguyet-que-do" target="_blank" class="fa fa-linkedin"></a>
+      <a href="mailto:nguyetquedo.quochoc@gmail.com" target="_blank" class="fa fa-envelope"></a>
+    </div>
+  </div>
+
+  <div id="footer" class="jumbotron" style="margin-bottom: 0;">
+    <div class="container">
+      <div class="row d-flex flex-row align-items-center">
+        <div class="col-md-4 text-center">
+          <img
+              src="images/themes/Logo-Que-II.png"
+              alt="Nguyệt Quế Đỏ"
+              width="100%"
+            />
+          <div class="horizontal-line-yellow"></div>
+          <p style="text-align: justify;">
+            Chương trình tìm kiếm thí sinh ưu tú và xuất sắc nhất đại diện cho trường THPT chuyên Quốc Học – Huế tham dự chương trình Đường lên đỉnh Olympia do Đài Truyền hình Việt Nam tổ chức.
+          </p>
+        </div>
+        <div id="contact-info" class="col-md-4 text-left">
+          <p style="font-size: 2rem; color: var(--yellow); text-align: left;" class="section-title">LIÊN HỆ</p>
+          <div class="head-info">
+            <span>Bà Dương Thị Quỳnh Châu</span> (Bí thư Đoàn trường THPT chuyên Quốc Học – Huế)
+            <p>
+            Email: chaudtq.quochochue@gmail.com<br>
+            Mobile: (+84) 905 988 518
+            </p>
+          </div>
+
+          <div class="head-info">
+            <span>Chị Dương Thuý Hiền</span> (Trưởng BTC Nguyệt Quế Đỏ VI)
+            <p>
+            Email: thuyhien.nqd@gmail.com<br>
+            Mobile: (+84) 965 309 575
+            </p>
+          </div>
+
+          <div class="head-info">
+            <span>Chị Võ Hương Giang</span> (Phó BTC Nguyệt Quế Đỏ VI)
+            <p>
+            Email: huonggiang.nqd@gmail.com<br>
+            Mobile: (+84) 913 261 756
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <iframe width="100%" height="400px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.305730231466!2d107.58078257560545!3d16.46004982885604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a137de72dcfd%3A0x8b5ead90ff77bf71!2sQuoc%20Hoc%20-%20Hue%20High%20School%20For%20The%20Gifted!5e0!3m2!1sen!2s!4v1727097355871!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery and Bootstrap's JS -->
   <script src="js/jquery.min.js"></script>
@@ -33,7 +658,8 @@
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
   <script src="js/owl.carousel.min.js"></script>
   <!-- Custom JS -->
-  <!-- <script src="js/load-data.js"></script> -->
+  <script src="js/load-data.js"></script>
+  <script src="js/sponsor.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
