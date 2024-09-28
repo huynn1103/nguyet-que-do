@@ -1,0 +1,17 @@
+.department .row img {
+    border-radius: 10%;
+}
+
+.department .row button {
+    background-color: var(--yellow);
+    color: var(--red);
+    font-weight: bold;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.department .row button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
