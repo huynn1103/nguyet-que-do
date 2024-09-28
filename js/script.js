@@ -10,7 +10,7 @@ $(document).ready(function () {
     $(this).addClass('active');
 
     var targetId = $(this).attr('href');
-    if (!targetId.includes('/wiki/nguyet-que-do') && !targetId.includes('/co-cau-nhan-su.html')) {
+    if (!targetId.includes('/wiki/nguyet-que-do') && !targetId.includes('/co-cau-nhan-su')) {
       event.preventDefault();
     }
     var targetPosition = $(targetId).offset().top;
