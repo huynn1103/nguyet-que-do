@@ -2,8 +2,6 @@ $(document).ready(function () {
   // Navbar
   let navHeight = $('#navbar').outerHeight(true);
   $('#intro').css('padding-top', navHeight);
-  $('#structure').css('padding-top', navHeight);
-  $('#wiki').css('padding-top', navHeight);
 
   $('#navbar .navbar-nav .nav-item .nav-link:first').addClass('active');
   $('#navbar .navbar-nav .nav-item .nav-link').click(function (event) {
@@ -15,16 +13,20 @@ $(document).ready(function () {
       event.preventDefault();
     }
     var targetPosition = $(targetId).offset().top;
-    if (targetId !== '#home' || targetId !== '#footer') {
+    if (targetId !== '#footer') {
       targetPosition -= navHeight
     }
     $('html, body').animate({ scrollTop: targetPosition }, 1 * 1000);
   });
   // End navbar
 
-
   $('#intro').carousel({
     interval: 5 * 1000,
+    pause: false
+  });
+
+  $('#testimonial-carousel').carousel({
+    interval: 8 * 1000,
     pause: false
   });
 });

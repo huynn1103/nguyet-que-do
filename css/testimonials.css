@@ -48,6 +48,19 @@
 	border-radius: 1rem;
 }
 
+/* Large tablet */
+@media screen and (max-width: 991.98px) {
+    #testimonials .carousel .overview {
+		background-color: inherit;
+		padding: 0.4rem 0;
+	}
+
+	#testimonials .carousel .project {
+		background-color: inherit;
+		padding: 0.4rem 0;
+	}
+}
+
 #testimonials .carousel .testimonial {
 	text-align: justify;
 	padding: 1rem;
@@ -65,7 +78,6 @@
 	transition: background-color 0.5s;
 }
 
-/* Style the active indicator */
 .carousel-indicators .active {
 	background-color: var(--yellow);
 }

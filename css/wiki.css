@@ -9,3 +9,7 @@
 .orange-border-table td {
   border-color: var(--orange) !important; /* Màu cam cho border */
 }
+
+.contestant img {
+  aspect-ratio: 2 / 3;
+}
