@@ -3,6 +3,7 @@ $(document).ready(function () {
   let navHeight = $('#navbar').outerHeight(true);
   $('#intro').css('padding-top', navHeight);
   $('#structure').css('padding-top', navHeight);
+  $('#wiki').css('padding-top', navHeight);
 
   $('#navbar .navbar-nav .nav-item .nav-link:first').addClass('active');
   $('#navbar .navbar-nav .nav-item .nav-link').click(function (event) {
@@ -58,64 +59,4 @@ $(document).ready(function () {
     observer.observe(this);
   });
   // End stats number animation
-
-  // Slide up animation
-  const slideUpObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('slide-up');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.5 });
-
-  document.querySelectorAll('.content-slide-up').forEach(function (element) {
-    slideUpObserver.observe(element);
-  });
-  // End slide up animation
-
-  // Slide down animation
-  const slideDownObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('slide-down');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.5 });
-
-  document.querySelectorAll('.content-slide-down').forEach(function (element) {
-    slideDownObserver.observe(element);
-  });
-  // End slide down animation
-
-  // Slide left animation
-  const slideLeftObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('slide-left');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.5 });
-
-  document.querySelectorAll('.content-slide-left').forEach(function (element) {
-    slideLeftObserver.observe(element);
-  });
-  // End slide left animation
-
-  // Slide right animation
-  const slideRightObserver = new IntersectionObserver(function (entries) {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('slide-right');
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.5 });
-
-  document.querySelectorAll('.content-slide-right').forEach(function (element) {
-    slideRightObserver.observe(element);
-  });
-  // End slide right animation
 });

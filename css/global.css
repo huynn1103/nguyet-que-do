@@ -121,7 +121,6 @@ body {
 	background-color: var(--yellow);
 	width: 50%;
 	height: 0.2rem;
-	margin: 0 auto;
 	margin: 1rem auto;
 }
 
@@ -129,7 +128,13 @@ body {
 	background-color: var(--red);
 	width: 50%;
 	height: 0.2rem;
-	margin: 0 auto;
+	margin: 1rem auto;
+}
+
+.horizontal-line-orange {
+	background-color: var(--orange);
+	width: 50%;
+	height: 0.2rem;
 	margin: 1rem auto;
 }
 
@@ -137,6 +142,13 @@ body {
     font-size: 3vw;
     font-weight: bold;
     color: var(--red);
+    text-align: center;
+}
+
+.section-sub-title {
+    font-size: 2vw;
+    font-weight: bold;
+    color: var(--orange);
     text-align: center;
 }
 

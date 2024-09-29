@@ -43,6 +43,14 @@
 	color: var(--gray);
 }
 
+#navbar #navbarNav .nav-item.dropdown ul .nav-link {
+	font-size: 1rem;
+}
+
+#navbar #navbarNav .nav-item.dropdown ul .nav-link:hover {
+	border-bottom: 0.2rem solid var(--orange);
+}
+
 @media (max-width: 1199px) {
 	#navbar #navbarNav .nav-item .nav-link {
 		font-size: 1rem;

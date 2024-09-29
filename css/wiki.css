@@ -1,0 +1,11 @@
+.red-border-table,
+.red-border-table th,
+.red-border-table td {
+  border-color: var(--red) !important; /* Màu đỏ cho border */
+}
+
+.orange-border-table,
+.orange-border-table th,
+.orange-border-table td {
+  border-color: var(--orange) !important; /* Màu cam cho border */
+}
