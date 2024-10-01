@@ -12,4 +12,24 @@
 
 .contestant img {
   aspect-ratio: 2 / 3;
+  border-radius: 10%;
+}
+
+.contestant p {
+  font-size: 0.8rem;
+}
+
+.contestant-winner {
+  background-color: var(--yellow);
+  color: var(--red);
+  font-weight: bold;
+}
+
+.contestant-second-winner {
+  color: var(--orange);
+  font-weight: bold;
+}
+
+.final > div p {
+  font-size: 0.8rem;
 }
