@@ -139,14 +139,14 @@ body {
 }
 
 .section-title {
-    font-size: 3vw;
+    font-size: 2rem;
     font-weight: bold;
     color: var(--red);
     text-align: center;
 }
 
 .section-sub-title {
-    font-size: 2.4vw;
+    font-size: 1.6rem;
     font-weight: bold;
     color: var(--orange);
     text-align: center;
